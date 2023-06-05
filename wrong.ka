@@ -1,0 +1,6 @@
+-- My first Kappa program
+const message = "Hello world!\n": str;
+
+def main():
+    writeStr(message
+enddef;

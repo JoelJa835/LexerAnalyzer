@@ -11,5 +11,6 @@ myanalyzer.tab.c: myanalyzer.y
 lex.yy.c: mylexer.l
 	$(LEX) mylexer.l
 
+
 clean:
 	rm -f lex.yy.c myanalyzer.tab.c mycompiler
